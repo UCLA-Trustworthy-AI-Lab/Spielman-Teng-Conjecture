@@ -3,7 +3,7 @@
 **Hengzhi He and Guang Cheng**  
 Working Paper · November 23, 2026
 
-[Read the paper (PDF)](Spielman-Teng.pdf)
+[Read the paper (PDF)](Spielman-Teng.pdf) · [November 23 manuscript and citation](preprints/Spielman-Teng-2026-11-23/)
 
 ## Main results
 
@@ -26,7 +26,7 @@ The proof compares the sign matrix with a matrix whose rows are independent and 
 
 ## How to cite
 
-He, H., and Cheng, G. (2026). *The Smallest Singular Value of a Random Sign Matrix: The Spielman–Teng Conjecture*. Working paper, November 23, 2026.
+He, H., and Cheng, G. (2026). *The Smallest Singular Value of a Random Sign Matrix: The Spielman–Teng Conjecture*. Working paper, revision R4, November 23, 2026. [Version cited](https://github.com/UCLA-Trustworthy-AI-Lab/Spielman-Teng-Conjecture/blob/a0ba1f0a5c2c24a1b411620a4729a5055eaa0a8b/Spielman-Teng.pdf).
 
 ```bibtex
 @unpublished{hecheng2026spielmanteng,
@@ -34,7 +34,7 @@ He, H., and Cheng, G. (2026). *The Smallest Singular Value of a Random Sign Matr
   title  = {The Smallest Singular Value of a Random Sign Matrix: The {Spielman--Teng} Conjecture},
   year   = {2026},
   month  = nov,
-  note   = {Working paper, November 23, 2026},
-  url    = {https://github.com/UCLA-Trustworthy-AI-Lab/Spielman-Teng-Conjecture}
+  note   = {Working paper, revision R4, November 23, 2026},
+  url    = {https://github.com/UCLA-Trustworthy-AI-Lab/Spielman-Teng-Conjecture/blob/a0ba1f0a5c2c24a1b411620a4729a5055eaa0a8b/Spielman-Teng.pdf}
 }
 ```
