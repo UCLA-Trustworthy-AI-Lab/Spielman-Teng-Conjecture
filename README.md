@@ -9,18 +9,18 @@ Working Paper · November 23, 2026
 
 How likely is a square random sign matrix to be nearly singular? Let $A$ be an $n\times n$ matrix whose entries are independently and uniformly chosen from $\{-1,1\}$, and let $s_{\min}(A)$ be its smallest singular value. We prove the bound conjectured by Spielman and Teng in 2002. For some absolute constant $c>0$, every $n\ge 1$, and every $t\ge 0$,
 
-$$
-\Pr\!\left(\sqrt n\,s_{\min}(A)\le t\right)\le t+e^{-cn}.
-$$
+```math
+\Pr\left(\sqrt{n} s_{\min}(A)\le t\right)\le t+e^{-cn}.
+```
 
 The coefficient of $t$ is one. The exponential term allows for the positive probability that a sign matrix is exactly singular.
 
 We also obtain a finite-dimensional improvement. There are absolute constants $c,\theta,C>0$ such that, for all sufficiently large $n$ and all $e^{-cn}\le t\le n^{-\theta}$,
 
-$$
-\Pr\!\left(\sqrt n\,s_{\min}(A)\le t\right)
+```math
+\Pr\left(\sqrt{n} s_{\min}(A)\le t\right)
 \le t\left(1-\frac{1}{2n}+Cn^{-1.02}\right).
-$$
+```
 
 The proof compares the sign matrix with a matrix whose rows are independent and uniform on a sphere. An arithmetic small-ball estimate transfers the comparison to exponentially small thresholds. At polynomial thresholds, a coordinate of the least left singular vector supplies the weight in a crossing argument.
 
